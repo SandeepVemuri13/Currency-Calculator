@@ -47,7 +47,7 @@ export default class CurrencyConverter extends LightningElement {
             console.log('Date:', date);
             console.log('Rate:', this.Rate);
         }).catch((error)=>{
-            console.log('Some error occured while fetching details');
+            console.log('Some error has been occured while fetching details');
             this.showoutput=false;
         });
     }
